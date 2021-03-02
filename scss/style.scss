@@ -1,0 +1,57 @@
+@import "variables";
+
+
+.carousel-inner {
+    height: 75vh;
+    h5 {
+        font-family: 'Roboto Slab', serif;
+        z-index: 9999;
+    }
+}
+
+.container-bottom {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    background-color: $mainColor;
+    .container-items {
+        display: flex;
+        justify-content: center;
+        background-color: $mainColor;
+        width: 60rem;
+        height: 6rem;
+        margin-top: -4rem;
+        z-index: 999;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    .item {
+        word-break: break-all;
+        background-color: $itemColor;
+        padding: 2rem 2rem;
+        width: 9rem;
+        height: 5rem;
+        margin-right: 1rem;
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.7rem;
+            line-height: 0.7rem;
+            color: #ffffff;
+        }
+    }
+    .item:hover {
+        margin-top: -0.7rem;
+    }
+}
+
+.carousel-control-next-icon {
+    background: $itemColor;
+    margin-left: -15rem;
+    margin-top: 15rem;
+}
+
+.carousel-control-prev-icon {
+    background-color: red;
+
+
+}

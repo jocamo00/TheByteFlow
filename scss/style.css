@@ -1,1 +1,66 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.carousel-inner {
+  height: 75vh;
+}
+
+.carousel-inner h5 {
+  font-family: 'Roboto Slab', serif;
+  z-index: 9999;
+}
+
+.container-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 5rem;
+  background-color: #ABA1A1;
+}
+
+.container-bottom .container-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ABA1A1;
+  width: 60rem;
+  height: 6rem;
+  margin-top: -4rem;
+  z-index: 999;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.container-bottom .item {
+  word-break: break-all;
+  background-color: #0C17A1;
+  padding: 2rem 2rem;
+  width: 9rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+.container-bottom .item p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7rem;
+  line-height: 0.7rem;
+  color: #ffffff;
+}
+
+.container-bottom .item:hover {
+  margin-top: -0.7rem;
+}
+
+.carousel-control-next-icon {
+  background: #0C17A1;
+  margin-left: -15rem;
+  margin-top: 15rem;
+}
+
+.carousel-control-prev-icon {
+  background-color: red;
+}
+/*# sourceMappingURL=style.css.map */
